@@ -1,0 +1,47 @@
+@media all and (max-width: 768px)  {
+
+	.navbar-toggler {
+	    padding: 0.25rem 10px;
+	    font-size: 26px;
+	    border:none;
+	}
+
+	.navbar {
+		background: #000 !important;
+	}
+
+	.xwish_banner .banner_box {
+		max-width: 100%;
+	} 
+
+	.slick_content {
+		top: 8px;
+	}
+
+	a.navbar-brand {
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.navbar-nav {
+	    margin-left: 0;
+	    text-align: center;
+	}
+
+	.navbar-dark .navbar-toggler {
+	    position: absolute;
+	    top: 10px;
+	    left: 10px;
+	    color: #fff !important;
+	    border-color: #fff !important;
+	    opacity: 1 !important;
+	}
+
+	.slick_slide h2 {
+	    font-size: 24px;
+	}
+
+	.project_box .views {
+		font-size: 16px;
+	}
+}

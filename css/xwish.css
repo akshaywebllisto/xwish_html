@@ -1,0 +1,432 @@
+
+.bg_grey {
+	background: #f7f7fa;
+}
+
+.navbar {
+        background: rgba(0,0,0,0.8) !important;
+    }
+
+p.text_design,
+section p {
+    font-weight: 300;
+    text-transform: none;
+    font-style: normal;
+    letter-spacing: 1.7px;
+    font-size: 18px;
+}
+
+.btn_light {
+	font-family: "Earth Orbiter",Sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	font-size: 15px;
+	border: 2px solid #fff;
+	padding: 12px 24px;
+	border-radius:6px;
+}
+
+.btn_light:hover {
+	color:#a0ea00;
+	border-color:#a0ea00;
+	background: transparent !important;
+}
+
+/*Header*/
+.navbar {
+    padding: 0 20px;
+    line-height: 0;
+}
+
+a.navbar-brand {
+	font-size: 34px;
+	font-family: 'Bebas Neue',Sans-serif;
+	font-weight: 600;
+	padding: 5px 25px;
+	margin: 10px 0;
+}
+
+a.navbar-brand img {
+    height: 28px;
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+}
+
+.navbar-nav {
+	margin-left:15px;
+}
+
+.navbar-nav .nav-link {
+    display: inline-block;
+    color: #fff !important;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    padding: 9px 13px 9px 15px;
+    text-transform: uppercase;
+    font-family: "Nunito Sans",Sans-serif;
+    line-height: 14px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.navbar-nav .nav-link:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: -1px;
+    z-index: -1;
+    background: #e02890;
+    transform: translate3d(101%,0,0);
+    transition: transform .5s;
+    transition-timing-function: cubic-bezier(.7,0,.3,1);
+}
+
+.navbar-nav .nav-link:hover:after {
+    transform: translate3d(0,0,0);
+}
+
+.xwish_banner {
+    background-image: url('../images/xwish_banner_bg.jpg');
+    background-position: top center;
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+    max-height: 100vh;
+    position: relative;
+}
+
+.backgroundoverlay {
+    background-color: #000;
+    opacity: .1;
+    transition: background .3s,border-radius .3s,opacity .3s;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.xwish_banner .banner_box {
+    max-width: 50%;
+    position: relative;
+    top: 176px;
+}
+
+.xwish_banner .heading1 {
+    color: #fff;
+    font-family: "Dr Sugiyama",Sans-serif;
+    font-size: 192px;
+    font-weight: 500;
+    mix-blend-mode: overlay;
+    line-height: 142px;
+    margin: 0;
+}
+
+.xwish_banner .heading2 {
+	color: #fff;
+	font-family: "Wire One",Sans-serif;
+	font-size: 102px;
+	font-weight: 500;
+	padding: 0;
+	margin: 0;
+	line-height: 97px;
+	mix-blend-mode: overlay;
+	margin-bottom: 20px;
+}
+
+.xwish_banner .heading3 {
+    color: #fff;
+    font-family: "Nunito Sans",Sans-serif;
+    letter-spacing: 8.2px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+}
+
+.xwish_banner .btn-dark {
+	font-family: "Earth Orbiter",Sans-serif;
+	text-shadow: 0px 0px 10px rgba(0,0,0,.3);
+	background-color: #000;
+	border-radius: 9px;
+	border: 1px solid #ce884a;
+	font-weight: bold;
+	line-height: 1;
+	font-size: 16px;
+	padding: 15px 30px;
+}
+
+.section_heading {
+	font-family: 'Bebas Neue',Sans-serif;
+	font-size: 55px;
+	letter-spacing: 10px;
+	font-weight: 600;
+	position: relative;
+	margin-bottom: 70px;
+}
+
+.section_heading .bg_sign {
+    font-family: "Dr Sugiyama",Sans-serif;
+    font-size: 160px;
+    letter-spacing: 1.7px;
+    color: #f7afc8;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -60px;
+    margin-top: -100px;
+    z-index: 0;
+    display: none;
+}
+
+.section_heading .txt {
+    position: relative;
+    z-index: 1;
+}
+
+section.projects,
+section.about {
+    min-height: 100vh;
+    padding: 100px 0 10px 0;
+    overflow: hidden;
+}
+
+section.about p.desc {
+    color: #54595f;
+    line-height: 18px;
+    margin-bottom: 90px;
+}
+
+section.about .slick-dots {
+	bottom: 0px;
+}
+
+
+section.about .slick-dotted.slick-slider {
+	margin-bottom: 0px;
+}
+
+section.about .slick-prev {
+    left: 25px;
+    z-index: 9;
+}
+
+section.about .slick-next {
+    right: 25px;
+    z-index: 9;
+}
+
+
+
+.slick_slide {
+	height: 400px;
+}
+
+.slick_slide  h2{
+    font-family: "Nanum Gothic",Sans-serif;
+    font-weight: 400;
+	font-size: 35px;
+	line-height: 1;
+	margin-bottom: 30px;
+}
+
+.slick_bg {
+    background-color: #833ca3;
+    background-image: url('../images/xwish_slide1.jpg');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 100%;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.slick_content {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 50px;
+}
+
+.slick_content p {
+	margin-bottom: 30px;
+}
+
+.slick-prev:before, .slick-next:before {
+	display: none;
+}
+
+.slick-prev, .slick-next {
+	font-size: 20px !important;
+	color: #fff  !important;
+}
+
+.project_box {
+	    overflow: hidden;
+        display: none;
+}
+
+.project_box .flip_box{
+    height: 280px;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.project_box .flip_box .overlay {
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    text-align: center;
+    padding: 35px;
+}
+
+.project_box .flip_box .overlay2 {
+    background-color: rgba(252,5,128,.89);
+    text-align: center;
+}
+
+.project_box .flip_box .overlay .inner {
+    -webkit-transform: translateZ(90px) scale(.91);
+    transform: translateZ(90px) scale(.91);
+}
+
+.flip_box .front {
+	background-image: url('../images/xlove.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out
+}
+
+.flip_box .back {
+	background-image: url('../images/xlove.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all .6s ease-in-out;
+	-o-transition: all .6s ease-in-out;
+	transition: all .6s ease-in-out
+   color: white;
+	-webkit-transform: rotateX(-180deg) rotateY(0);
+	transform: rotateX(-180deg) rotateY(0);
+	-webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip_box h4 {
+	margin: 0 0 20px;
+	font-weight: 600;
+	font-family: 'Bebas Neue',Sans-serif;
+	font-size: 34px;
+}
+
+.flip_box p  {
+	font-family: "Nunito Sans",Sans-serif;
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 12px;
+	line-height: 32px;
+}
+
+.flip_box:hover .front {
+    -webkit-transform: rotateX(180deg) rotateY(0);
+    transform: rotateX(180deg) rotateY(0);
+}
+
+.flip_box:hover .back {
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none; 
+}
+
+.flip_box .btn {
+	font-size: 15px;
+    padding: 12px 24px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.project_box {
+	margin-bottom: 30px;
+}
+
+.project_box .card-title {
+	font-family: "Nanum Gothic",Sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	color: #000;
+}
+
+.project_box .card-text {
+    font-family: "Quicksand",Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.3em;
+    letter-spacing: 0px;
+    color: #7a7a7a;
+}
+
+.project_box .views {
+	font-family: 'Bebas Neue',Sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.3em;
+	letter-spacing: 0px;
+	color: #7a7a7a;
+}
+
+.project_box .views span {
+	color: #fc007e;
+}
+
+.project_box .progress,
+.project_box .progress-bar {
+	height: 30px;
+}
+
+.project_box .progress {
+	margin-bottom: 4px;
+	border-radius: 2px;
+}
+
+.project_box .progress-bar {
+	background: #fc007e;
+}
