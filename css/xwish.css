@@ -189,11 +189,13 @@ a.navbar-brand img {
 .section_heading .txt {
     position: relative;
     z-index: 1;
+    width: 100%;
+    display: block;
 }
 
 section.projects,
 section.about {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     padding: 100px 0 10px 0;
     overflow: hidden;
 }
@@ -429,4 +431,8 @@ section.about .slick-next {
 
 .project_box .progress-bar {
 	background: #fc007e;
+}
+
+.project_box .views .col-4.text-center {
+    padding-left: 11%;
 }

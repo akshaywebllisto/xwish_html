@@ -47,7 +47,7 @@ jQuery('document').ready(function($){
       if (isScrolledIntoView(this) === true) { 
         jQuery(this).children('.txt').addClass('fadeInUp');
         jQuery(this).children('.bg_sign').show().addClass('fadeInDown');
-	  }
+	    }
     });
     $('.about .desc').each(function() {
       if (isScrolledIntoView(this) === true) { 
