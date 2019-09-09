@@ -85,4 +85,8 @@
 	    width: 100%;
 	    display: inline-block;
 	}
+
+	.project_box .views {
+		font-size: 18px;
+	}
 }
