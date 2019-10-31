@@ -184,7 +184,6 @@ a.navbar-brand img {
     margin-top: -100px;
     z-index: 0;
     display: none;
-    font-weight: normal;
 }
 
 .section_heading .txt {
@@ -250,17 +249,6 @@ section.about .slick-next {
     min-height: 100%;
     flex-basis: 100%;
     width: 100%;
-}
-
-.slick_bg.bg_zoomin {
-    background-size: 150%;
-}
-
-.slick_bg.bg_zoomout {
-   -webkit-transition: background 10s ease;
-    -o-transition: background 10s ease;
-    transition: background 10s ease;
-    background-size: 100%;
 }
 
 .slick_content {

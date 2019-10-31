@@ -10,13 +10,17 @@ jQuery('document').ready(function($){
   	$('.single_slide').on('beforeChange', function(event, slick, currentSlide, nextSlide){
   	   $('.slick_content').removeClass('fadeInUp');        
   	   $('.slick_content').addClass('d-none');        
-  	});
+       $('.slick_bg').removeClass('bg_zoomout');        
+       $('.slick_bg').addClass('bg_zoomin');        
+       $('.slick_bg').addClass('bg_zoomout');        
+       $('.slick_bg').removeClass('bg_zoomin');        
+    });
+
     $('.single_slide').on('afterChange', function(event, slick, currentSlide, nextSlide){
     	 $('.slick_content').removeClass('d-none');        
-  	   $('.slick-active .slick_content').addClass('fadeInUp');        
+       $('.slick-active .slick_content').addClass('fadeInUp');        
     });
     
-
 }); 
 
 
