@@ -255,6 +255,12 @@
 	    margin-left: 0;
 	    margin-right: 0;
 	} 
+
+	.slick_bg.bg_zoomout,
+	.slick_bg.bg_zoomin,
+	.slick_bg {
+	    background-size: auto 100% !important;
+	}
 }
 
 
