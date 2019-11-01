@@ -42,6 +42,22 @@
 }
 
 
+.slick_bg.bg_hand {
+    background-image:url('../images/hands-1384735_1920.jpg'); 
+}
+
+.slick_bg.bg_girl {
+    background-image:url('../images/girl-3338616_1920.jpg'); 
+}
+
+.slick_bg.bg_girl_mountain {
+    background-image:url('../images/girl-mountain-731142_1920.jpg'); 
+}
+
+.slick_slide h2, .slick_slide p {
+    text-shadow: 0px 1px 1px #000;
+}
+
 @media all and (max-width: 1024px)  {
 	nav.gl-header .menu-global li a {
 	    margin-right: 0;
